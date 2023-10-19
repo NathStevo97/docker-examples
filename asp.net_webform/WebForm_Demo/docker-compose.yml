@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webform_demo:
+    image: ${DOCKER_REGISTRY-}webformdemo
+    build:
+      context: .\WebForm_Demo
+      dockerfile: Dockerfile

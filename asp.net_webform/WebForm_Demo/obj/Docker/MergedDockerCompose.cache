@@ -1,0 +1,9 @@
+services:
+  webform_demo:
+    build:
+      context: C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\WebForm_Demo
+      dockerfile: Dockerfile
+    image: webformdemo
+    ports:
+    - target: 80
+version: '3.4'

@@ -1,0 +1,11 @@
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\WebForm_Demo.dll
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\System.Web.Optimization.dll
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\WebForm_Demo.pdb
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\WebForm_Demo.dll.config
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\System.Web.Optimization.xml
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\bin\Debug\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\natst\Documents\Projects\ASP.NET_Webform_Docker\WebForm_Demo\obj\Debug\docker-compose.dcproj.CopyComplete

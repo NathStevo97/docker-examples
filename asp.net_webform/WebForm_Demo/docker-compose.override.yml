@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  webform_demo:
+    ports:
+      - "80"
