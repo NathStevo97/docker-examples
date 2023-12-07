@@ -5,13 +5,18 @@ services:
 
   db:
     image: postgres:16.0-alpine3.18
+    command: "postgres -c config_file=/config/postgresql.conf"
     restart: always
     environment:
-      POSTGRES_PASSWORD: example
+      POSTGRES_USER: "postgresadmin"
+      POSTGRES_PASSWORD: "admin123"
+      POSTGRES_DB: "postgresdb"
+      PGDATA: "/data"
     ports:
     - 5000:5432
     volumes:
-    - ./pgdata:/var/lib/postgresql/data
+    - ./pgdata:/data
+    - ./config:/config/
 
   adminer:
     image: adminer
