@@ -1,7 +1,7 @@
 #docker image to build a nodejs server
 #use the latest image of node to build from
 
-FROM node:10
+FROM node:22
 
 #create working directory for app to run from
 WORKDIR /usr/src/app
