@@ -35,3 +35,16 @@ docker run -d \
 - Remove the container: `docker rm portainer`
 - Remove the volume & data: `docker rm portainer_data`
 - (Optional) Remove the image: `docker image rm portainer/portainer-ce`
+
+## Updating
+
+- Stop and remove the container:
+
+```shell
+docker stop portainer
+docker rm portainer
+```
+
+- Re-run `docker run` with updated image tag and point towards the latest image
+
+- ALternatively, update the image tag in `docker-compose`
