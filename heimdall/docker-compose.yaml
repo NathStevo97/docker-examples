@@ -9,6 +9,5 @@ services:
     volumes:
       - /opt/stacks/heimdall:/config
     ports:
-      - 80:80
-      - 443:443
+      - "${HEIMDALL_BIND_IP:-127.0.0.1}:80:80"
     restart: unless-stopped
