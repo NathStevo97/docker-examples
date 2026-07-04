@@ -1,6 +1,6 @@
 services:
   heimdall:
-    image: lscr.io/linuxserver/heimdall:2.7.6@sha256:37b8af11d12ea6b2cc7917d4d71ef8084943566308efad03d8e34d5d9fc75771
+    image: lscr.io/linuxserver/heimdall:2.7.6@sha256:536eb14f068fe3f052b92f94ca606db689d1d1b79b5408d1242c12e882e4ed66
     container_name: heimdall
     environment:
       - PUID=1000
