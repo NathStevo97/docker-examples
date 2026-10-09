@@ -1,6 +1,6 @@
 services:
   portainer:
-    image: portainer/portainer-ce:2.43.0@sha256:707366c811956fe077135a6633af67e698529612869711cdb24896c892b28feb
+    image: portainer/portainer-ce:2.45.2@sha256:03f94a406496dc84d37b552795fc424ccad8d0d7200353b6a82915f6e8f73ab0
     container_name: portainer
     environment:
       - TZ=Europe/Londin
